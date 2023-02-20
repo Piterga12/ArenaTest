@@ -9,6 +9,7 @@ public class BarrierController : MonoBehaviour
     public GameObject barrier2;
     public GameObject barrier3;
     public GameObject barrier4;
+    public GameObject barrier5;
 
     public GameObject Light1;
     public GameObject Light2;
@@ -27,17 +28,18 @@ public class BarrierController : MonoBehaviour
     void Update()
     {
 
-        if (b3 && barrier3.transform.position.y > -22)
+        if (b3 && barrier3.transform.position.y > -192)
         {
-            barrier3.transform.position = new Vector3(barrier3.transform.position.x, barrier3.transform.position.y - 0.1f, barrier3.transform.position.z); ;
+            barrier3.transform.position = new Vector3(barrier3.transform.position.x, barrier3.transform.position.y - 0.3f, barrier3.transform.position.z); ;
         }
-        if (b2 && barrier2.transform.position.y > -22)
+        if (b2 && barrier2.transform.position.y > -192)
         {
-            barrier2.transform.position = new Vector3(barrier2.transform.position.x, barrier2.transform.position.y - 0.1f, barrier2.transform.position.z); ;
+            barrier2.transform.position = new Vector3(barrier2.transform.position.x, barrier2.transform.position.y - 0.3f, barrier2.transform.position.z); ;
         }
-        if (b4 && barrier4.transform.position.y > -22)
+        if (b4 && barrier4.transform.position.y > -192)
         {
-            barrier4.transform.position = new Vector3(barrier4.transform.position.x, barrier4.transform.position.y - 0.1f, barrier4.transform.position.z); ;
+            barrier4.transform.position = new Vector3(barrier4.transform.position.x, barrier4.transform.position.y - 0.3f, barrier4.transform.position.z); ;
+            barrier5.transform.position = new Vector3(barrier5.transform.position.x, barrier5.transform.position.y - 0.3f, barrier5.transform.position.z); ;
         }
     }
 
