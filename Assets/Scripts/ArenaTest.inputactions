@@ -30,7 +30,23 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Barrier2",
+                    "name": "Barrier",
+                    "type": "Button",
+                    "id": "426e17d5-8890-426e-b661-6f6adeb72610",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "NoBarrier",
+                    "type": "Button",
+                    "id": "396316af-4e16-402e-9899-c678dc59d778",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Barrier1",
                     "type": "Button",
                     "id": "68f95994-b2f5-4288-97ae-40ff3907ac6d",
                     "expectedControlType": "Button",
@@ -38,7 +54,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Barrier3",
+                    "name": "Barrier2",
                     "type": "Button",
                     "id": "ec0d4db8-e51f-4d80-93c9-e88399610086",
                     "expectedControlType": "Button",
@@ -46,9 +62,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Barrier4",
+                    "name": "Barrier3",
                     "type": "Button",
                     "id": "072a4fe2-57c4-4845-a7ab-17e676a9ca3a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Barrier4",
+                    "type": "Button",
+                    "id": "1c0388b2-f996-471b-b63c-5a186198ea7f",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -278,7 +302,18 @@
                 {
                     "name": "",
                     "id": "693ed346-be4f-44e2-a2c9-2a683f016b73",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Barrier1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "411f19a0-122c-4458-9ec2-7c1ddd74e700",
+                    "path": "<Keyboard>/4",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -288,8 +323,8 @@
                 },
                 {
                     "name": "",
-                    "id": "411f19a0-122c-4458-9ec2-7c1ddd74e700",
-                    "path": "<Keyboard>/2",
+                    "id": "dc7c20fd-27e6-47c1-80a9-365cde74f146",
+                    "path": "<Keyboard>/5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -299,8 +334,30 @@
                 },
                 {
                     "name": "",
-                    "id": "dc7c20fd-27e6-47c1-80a9-365cde74f146",
-                    "path": "<Keyboard>/3",
+                    "id": "21cfeb46-1c0c-4b8e-9230-b8a540164e6b",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Barrier",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3af8cadc-e5a8-437d-8269-5b182bc0e323",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoBarrier",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fe09992-5a2d-45e8-a1f2-6b8b5e796022",
+                    "path": "<Keyboard>/6",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
